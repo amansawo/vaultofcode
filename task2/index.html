@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vault of Codes | Certificate Validator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="validator-section">
+    <div class="validator-box">
+      <h1>🔐 Certificate Validator</h1>
+      <p>Enter your Certificate ID to verify authenticity</p>
+
+      <form id="validatorForm">
+        <input type="text" id="certificateInput" placeholder="Enter Certificate ID" required />
+        <button type="submit">Validate</button>
+      </form>
+
+      <div id="resultBox" class="result hidden"></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
